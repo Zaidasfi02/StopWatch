@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1 {
+  margin-bottom: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #202020;
+}
+.stopWatch {
+  padding: 30px 35px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: aquamarine;
+  color: gray;
+}
+.timer {
+  font-size: large;
+  font-weight: bold;
+}
+.buttons {
+  margin-top: 20px;
+}
+.start {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: green;
+  color: #fff;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.stop {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: red;
+  color: #fff;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.reset {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: orange;
+  color: white;
+  margin-inline: 10px;
+  cursor: pointer;
+}
